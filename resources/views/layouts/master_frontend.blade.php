@@ -10,22 +10,22 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
-  <link href="assets/img/logo.png" rel="apple-touch-icon">
+  <link href="{{ asset('frontend/assets/img/logo.png') }}" rel="icon">
+  <link href="{{ asset('frontend/assets/img/logo.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="{{ asset('frontend/assets/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('frontend/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('frontend/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ asset('frontend/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('frontend/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('frontend/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="{{ asset('frontend/assets/css/style.css') }}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Delicious
@@ -47,7 +47,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-       <img align="left" src="assets/img/logo.png" alt="" width="100" height="100" />"
+       <img align="left" src="{{ asset('frontend/assets/img/logo.png') }}" alt="" width="100" height="100" />"
 
 
       <div class="logo me-auto">
@@ -80,7 +80,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/หน้าร้าน.jpg);">
+          <div class="carousel-item active" style="background-image: url({{ asset('frontend/assets/img/slide/หน้าร้าน.jpg') }});">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span>Coffee 248 </span> Cafe</h2>
@@ -104,7 +104,7 @@
 
         <div class="row">
 
-          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/about.jpg");'>
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("{{ asset('frontend/assets/img/about.jpg') }}");'>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
@@ -160,7 +160,7 @@
           <div class="col-lg-4 menu-item filter-sweet">
             <div class="menu-content">
              <a href="#">โกโก้</a> <span>45 บาท</span>
-              <img src="assets/img/menu/โกโก้เย็น.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/โกโก้เย็น.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -169,7 +169,7 @@
           <div class="col-lg-4 menu-item filter-tea">
             <div class="menu-content">
              <a href="#">ชาเขียว</a> <span>45 บาท</span>
-              <img src="assets/img/menu/ชาเขียว.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/ชาเขียว.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -178,7 +178,7 @@
           <div class="col-lg-4 menu-item filter-tea">
             <div class="menu-content">
              <a href="#">ชาเย็น</a> <span>45 บาท</span>
-              <img src="assets/img/menu/ชาเย็น.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/ชาเย็น.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -187,7 +187,7 @@
           <div class="col-lg-4 menu-item filter-coffee">
             <div class="menu-content">
              <a href="#">ลาเต้</a> <span>45 บาท</span>
-              <img src="assets/img/menu/ลาเต้.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/ลาเต้.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -196,7 +196,7 @@
           <div class="col-lg-4 menu-item filter-coffee">
             <div class="menu-content">
              <a href="#">อเมริกาโน่</a> <span>45 บาท</span>
-              <img src="assets/img/menu/อเมริกาโน่.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/อเมริกาโน่.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -205,7 +205,7 @@
           <div class="col-lg-4 menu-item filter-coffee">
             <div class="menu-content">
              <a href="#">เอสเพรสโซ่</a> <span>45 บาท</span>
-              <img src="assets/img/menu/เอสเพรสโซ่เย็น.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/เอสเพรสโซ่เย็น.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -214,7 +214,7 @@
           <div class="col-lg-4 menu-item filter-sweet">
             <div class="menu-content">
              <a href="#">โอวัลตินเย็น</a> <span>30 บาท</span>
-              <img src="assets/img/menu/โอวัลตินเย็น.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/โอวัลตินเย็น.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -223,7 +223,7 @@
           <div class="col-lg-4 menu-item filter-tea">
             <div class="menu-content">
              <a href="#">ชาเขียวมะนาว</a> <span>40 บาท</span>
-              <img src="assets/img/menu/ชาเขียวมะนาว.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/ชาเขียวมะนาว.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -232,7 +232,7 @@
           <div class="col-lg-4 menu-item filter-tea">
             <div class="menu-content">
              <a href="#">ชามะนาวสด</a> <span>40 บาท</span>
-              <img src="assets/img/menu/ชามะนาวสด.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/ชามะนาวสด.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -241,7 +241,7 @@
           <div class="col-lg-4 menu-item filter-other">
             <div class="menu-content">
              <a href="#">น้ำผึ้งมะนาว</a> <span>40 บาท</span>
-              <img src="assets/img/menu/น้ำผึ้งมะนาว.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/น้ำผึ้งมะนาว.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -250,7 +250,7 @@
           <div class="col-lg-4 menu-item filter-other">
             <div class="menu-content">
              <a href="#">น้ำแดง</a> <span>25 บาท</span>
-              <img src="assets/img/menu/น้ำแดง.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/น้ำแดง.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
@@ -259,7 +259,7 @@
           <div class="col-lg-4 menu-item filter-other">
             <div class="menu-content">
              <a href="#">น้ำเขียว</a> <span>25 บาท</span>
-              <img src="assets/img/menu/น้ำเขียว.png" class="" alt="" width="400" height="300">
+              <img src="{{ asset('frontend/assets/img/menu/น้ำเขียว.png') }}" class="" alt="" width="400" height="300">
             </div>
             <div class="menu-ingredients">
             </div>
