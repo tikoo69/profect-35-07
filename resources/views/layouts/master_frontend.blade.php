@@ -157,6 +157,18 @@
 
         <div class="row menu-container">
 
+            @foreach ($product as $data)
+            <div class="col-lg-4 menu-item filter-sweet">
+                <div class="menu-content">
+                 <a href="#">{{ $data->product_name }}</a> <span>{{ $data->price }} บาท</span>
+                  <img src="{{ asset('frontend/assets/img/menu/โกโก้เย็น.png') }}" class="" alt="" width="400" height="300">
+                </div>
+                <div class="menu-ingredients">
+                </div>
+            </div>
+            @endforeach
+
+
           <div class="col-lg-4 menu-item filter-sweet">
             <div class="menu-content">
              <a href="#">โกโก้</a> <span>45 บาท</span>
@@ -368,14 +380,14 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="{{ asset('frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('frontend/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ asset('frontend/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ asset('frontend/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ asset('frontend/assets/vendor/php-email-form/validate.js') }}"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
 
 </body>
 
