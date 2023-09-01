@@ -10,12 +10,12 @@
               <form method="POST" action="{{ route('register') }}">
                 @csrf
                 <div class="form-group">
-                    <label>name *</label>
+                    <label>Name *</label>
                     <input type="text" name="name" class="form-control p_input">
                 </div>
 
                 <div class="form-group">
-                  <label>email *</label>
+                  <label>Email *</label>
                   <input type="email" name="email" class="form-control p_input">
                 </div>
 
@@ -37,7 +37,7 @@
                 <div class="text-center">
                   <button type="submit" class="btn btn-primary btn-block enter-btn">Sign Up</button>
                 </div>
-               
+
                 <p class="sign-up">Don't have an Account?<a href="{{route('login')}}"> Sign Up</a></p>
               </form>
             </div>
