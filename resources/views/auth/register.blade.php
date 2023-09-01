@@ -29,16 +29,11 @@
                     <input type="password" name="password_confirmation"class="form-control p_input">
                   </div>
 
-                <div class="form-group d-flex align-items-center justify-content-between">
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"> Remember me </label>
-
                 <div class="text-center">
                   <button type="submit" class="btn btn-primary btn-block enter-btn">Sign Up</button>
                 </div>
 
-                <p class="sign-up">Don't have an Account?<a href="{{route('login')}}"> Sign Up</a></p>
+                <p class="sign-up">Have an Account?<a href="{{route('login')}}"> Login</a></p>
               </form>
             </div>
           </div>
