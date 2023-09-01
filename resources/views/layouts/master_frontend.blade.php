@@ -65,7 +65,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#book-a-table" class="book-a-table-btn scrollto">เข้าสู่ระบบ</a>
+      <a href="{{ route("login") }}" class="book-a-table-btn scrollto">เข้าสู่ระบบ</a>
 
     </div>
   </header><!-- End Header -->

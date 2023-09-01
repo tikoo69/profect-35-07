@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('product_name');
             $table->float('price', 8, 2);
             $table->bigInteger('type');
+            $table->string('image')->nullable();
             $table->text('product_detail');
             $table->timestamps();
         });
